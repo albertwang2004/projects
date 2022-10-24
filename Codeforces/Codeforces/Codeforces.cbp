@@ -291,10 +291,13 @@
 		<Unit filename="algo/all.cpp" />
 		<Unit filename="algo/temp.cpp" />
 		<Unit filename="exercise.in" />
+		<Unit filename="main">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="main2.cpp" />
 		<Unit filename="prime.cpp" />
 		<Unit filename="read.in" />
-		<Unit filename="whatever.cpp" />
 		<Unit filename="write.out" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

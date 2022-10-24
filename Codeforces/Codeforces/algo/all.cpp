@@ -1176,6 +1176,147 @@ public:
 
 };
 
+// PERSISTENT LAZY RANGE QUERY/UPDATE SEGMENT TREE .
+// Inspired by the internal data structure of git
+// example shown to solve a CSES problem
+
+#include <bits/stdc++.h>
+#include <iostream>
+#define pb push_back
+
+using namespace std;
+
+template <typename T>
+struct Node {
+    static int globalID;
+    int ID;
+    T val; T lazy;
+    Node<T>* L; Node<T>* R;
+    int LI; int RI;
+    Node<T> (T val, T lazy, Node<T>* L, Node<T>* R, int LI, int RI, int ID = globalID++) {
+        this->val = val;
+        this->lazy = lazy;
+        this->L = L;
+        this->R = R;
+        this->LI = LI;
+        this->RI = RI;
+        this->ID = ID;
+        //cout << "Constructor called! " << ID << " " << val << " " << lazy << " ";
+        //if (L != nullptr) cout << L->ID << " ";
+        //if (R != nullptr) cout << R->ID << " ";
+        //cout << LI << " " << RI << " " << endl;
+    }
+    void build() {
+        if (LI < RI) {
+            int m = (LI+RI)/2;
+            L = new Node<T>(0,0,nullptr,nullptr,LI,m);
+            L->build();
+            R = new Node<T>(0,0,nullptr,nullptr,m+1,RI);
+            R->build();
+        }
+    }
+    void push() {
+        L = new Node<T>(L->val + lazy*(L->RI-L->LI+1),
+                        L->lazy + lazy, L->L, L->R, L->LI, L->RI);
+        R = new Node<T>(R->val + lazy*(R->RI-R->LI+1),
+                        R->lazy + lazy, R->L, R->R, R->LI, R->RI);
+        lazy = 0;
+    }
+    void pushValues() {
+        if (L == nullptr) return;
+        if (R == nullptr) return;
+        L->val += lazy*(L->RI-L->LI+1);
+        L->lazy += lazy;
+        R->val += lazy*(R->RI-R->LI+1);
+        R->lazy += lazy;
+        lazy = 0;
+    }
+    Node<T>* updateHelper(int l, int r, T upd) {
+        if (l > r) return this;
+        if (l == LI && r == RI) {
+            val += upd*(RI-LI+1);
+            lazy += upd;
+            return this;
+        } else {
+            push();
+            int m = (LI+RI)/2;
+            L = L->updateHelper(l, min(r, m), upd);
+            R = R->updateHelper(max(l, m + 1), r, upd);
+            val = L->val + R->val;
+            return this;
+        }
+    }
+    Node<T>* update(int l, int r, T upd) {
+        Node<T>* ret = new Node<T>(val,lazy,L,R,LI,RI);
+        return ret->updateHelper(l,r,upd);
+    }
+    T query(int l, int r) {
+        if (l > r) return 0;
+        pushValues();
+        if (l <= LI && r >= RI) return val;
+        int m = (LI + RI) / 2;
+        return L->query(l, min(r, m))
+                +R->query(max(l, m + 1), r);
+    }
+};
+template <typename T>
+int Node<T>::globalID = 0;
+template <typename T>
+void print(Node<T>* x) {
+    cout << "Node " << x->ID << ":\n";
+    cout << "\tval " << x->val << ", lazy " << x->lazy << "\n";
+    cout << "\tLI " << x->LI << ", RI " << x->RI << "\n";
+    cout << "\t";
+    if (x->L != nullptr) cout << "L " << x->L->ID << " ";
+    if (x->R != nullptr) cout << "R " << x->R->ID << " ";
+    cout << endl;
+}
+template <typename T>
+void scope(Node<T>* x) {
+    if (x == nullptr) return;
+    cout << "scope " << x->ID << endl;
+    scope(x->L);
+    scope(x->R);
+}
+template <typename T>
+void full(Node<T>* x) {
+    if (x == nullptr) return;
+    print(x);
+    full(x->L);
+    full(x->R);
+}
+
+typedef long long int ll;
+// CSES - Range Queries and Copies
+int main() {
+    ifstream fin("input");
+    Node<ll>* head = new Node<ll>(0,0,nullptr,nullptr,0,(1<<18)-1);
+    head->build();
+    int N, Q; fin >> N >> Q;
+    for (int i = 0; i < N; i++) {
+        ll x; fin >> x;
+        head = head->update(i,i,x);
+        //full(head);
+    }
+    vector<Node<ll>*> tree = vector<Node<ll>*>();
+    tree.pb(head);
+    for (int i = 0; i < Q; i++) {
+        int t, k; fin >> t >> k;
+        if (t == 1) {
+            int a; ll x; fin >> a; fin >> x;
+            tree[k-1] = tree[k-1]->update(a-1,a-1,x-tree[k-1]->query(a-1,a-1));
+        } else if (t == 2) {
+            int a, b; fin >> a >> b;
+            //cout << tree[k-1]->query(a-1,b-1) << endl;
+        } else if (t == 3) {
+            tree.pb(tree[k-1]->update(0,(1<<18)-1,0));
+        }
+    }
+    cout << Node<ll>::globalID << endl;
+    return 0;
+}
+
+
 // piecewise
 
 #include <bits/stdc++.h>

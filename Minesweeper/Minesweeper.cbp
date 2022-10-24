@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Minesweeper" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Minesweeper" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Minesweeper" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="boards/adj.cfg" />
+		<Unit filename="boards/config.cfg" />
+		<Unit filename="boards/lots_o_mines.brd" />
+		<Unit filename="boards/recursion_test.brd" />
+		<Unit filename="boards/testboard1.brd" />
+		<Unit filename="boards/testboard2.brd" />
+		<Unit filename="boards/testboard3.brd" />
+		<Unit filename="images/debug.png" />
+		<Unit filename="images/digits.png" />
+		<Unit filename="images/face_happy.png" />
+		<Unit filename="images/face_lose.png" />
+		<Unit filename="images/face_win.png" />
+		<Unit filename="images/flag.png" />
+		<Unit filename="images/mine.png" />
+		<Unit filename="images/number_1.png" />
+		<Unit filename="images/number_2.png" />
+		<Unit filename="images/number_3.png" />
+		<Unit filename="images/number_4.png" />
+		<Unit filename="images/number_5.png" />
+		<Unit filename="images/number_6.png" />
+		<Unit filename="images/number_7.png" />
+		<Unit filename="images/number_8.png" />
+		<Unit filename="images/test_1.png" />
+		<Unit filename="images/test_2.png" />
+		<Unit filename="images/test_3.png" />
+		<Unit filename="images/tile_hidden.png" />
+		<Unit filename="images/tile_revealed.png" />
+		<Unit filename="src/Random.cpp" />
+		<Unit filename="src/Random.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/minesweeper.cpp" />
+		<Unit filename="src/minesweeper.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

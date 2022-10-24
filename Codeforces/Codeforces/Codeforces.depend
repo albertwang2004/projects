@@ -1,0 +1,571 @@
+# depslib dependency file v1.0
+1644082952 source:c:\my programs\codeforces\algo\all.cpp
+	<ext/pb_ds/assoc_container.hpp>
+	<bits/stdc++.h>
+	<bits/stdc++.h>
+	<bits/stdc++.h>
+	<iostream>
+	<vector>
+	<queue>
+
+1631716671 source:c:\my programs\codeforces\algo\temp.cpp
+
+1623865550 source:c:\my programs\codeforces\ps0713\c.cpp
+	<bits/stdc++.h>
+
+1623769269 source:c:\my programs\codeforces\ps0713\d.cpp
+
+1624800983 source:c:\my programs\codeforces\ps1387\b2.cpp
+
+1624738808 source:c:\my programs\codeforces\ps1394\c.cpp
+
+1624887141 source:c:\my programs\codeforces\ps1398\f.cpp
+
+1624729802 source:c:\my programs\codeforces\ps1422\e.cpp
+
+1625015251 source:c:\my programs\codeforces\ps1422\f.cpp
+
+1624304356 source:c:\my programs\codeforces\ps1439\a.cpp
+	<bits/stdc++.h>
+
+1624309689 source:c:\my programs\codeforces\ps1439\b.cpp
+
+1624294972 source:c:\my programs\codeforces\ps1439\c.cpp
+	<bits/stdc++.h>
+
+1624294971 source:c:\my programs\codeforces\ps1439\d.cpp
+	<bits/stdc++.h>
+
+1624718314 source:c:\my programs\codeforces\ps1444\c.cpp
+
+1624451753 source:c:\my programs\codeforces\ps1458\a.cpp
+
+1624454620 source:c:\my programs\codeforces\ps1458\b.cpp
+
+1624456351 source:c:\my programs\codeforces\ps1458\c.cpp
+
+1624458971 source:c:\my programs\codeforces\ps1458\d.cpp
+
+1624450872 source:c:\my programs\codeforces\ps1458\e.cpp
+
+1624450876 source:c:\my programs\codeforces\ps1458\f.cpp
+
+1624896161 source:c:\my programs\codeforces\ps1491\e.cpp
+
+1624734238 source:c:\my programs\codeforces\ps1494\f.cpp
+	<bits/stdc++.h>
+
+1624542483 source:c:\my programs\codeforces\ps1495\a.cpp
+
+1624544563 source:c:\my programs\codeforces\ps1495\b.cpp
+
+1624544972 source:c:\my programs\codeforces\ps1495\c.cpp
+
+1624566012 source:c:\my programs\codeforces\ps1495\d.cpp
+
+1624541967 source:c:\my programs\codeforces\ps1495\e.cpp
+
+1624541972 source:c:\my programs\codeforces\ps1495\f.cpp
+
+1625016493 source:c:\my programs\codeforces\ps1497\d.cpp
+
+1624283464 source:c:\my programs\codeforces\ps1500\a.cpp
+
+1624288549 source:c:\my programs\codeforces\ps1500\b.cpp
+
+1624281400 source:c:\my programs\codeforces\ps1500\c.cpp
+
+1624281412 source:c:\my programs\codeforces\ps1500\d.cpp
+
+1624369058 source:c:\my programs\codeforces\ps1503\a.cpp
+
+1624373980 source:c:\my programs\codeforces\ps1503\b.cpp
+
+1624373993 source:c:\my programs\codeforces\ps1503\c.cpp
+
+1624713058 source:c:\my programs\codeforces\ps1503\d.cpp
+
+1624373958 source:c:\my programs\codeforces\ps1503\e.cpp
+	<bits/stdc++.h>
+
+1624287433 source:c:\my programs\codeforces\ps1508\a.cpp
+
+1624285079 source:c:\my programs\codeforces\ps1508\b.cpp
+
+1624291889 source:c:\my programs\codeforces\ps1508\c.cpp
+
+1624285085 source:c:\my programs\codeforces\ps1508\d.cpp
+
+1624110343 source:c:\my programs\codeforces\ps1510\b.cpp
+
+1622770830 source:c:\my programs\codeforces\ps1511\d.cpp
+
+1622847086 source:c:\my programs\codeforces\ps1511\e.cpp
+
+1622562422 source:c:\my programs\codeforces\ps1512\f.cpp
+
+1622563135 source:c:\my programs\codeforces\ps1512\g.cpp
+
+1622129841 source:c:\my programs\codeforces\ps1513\d.cpp
+
+1622208886 source:c:\my programs\codeforces\ps1513\e.cpp
+
+1622769525 source:c:\my programs\codeforces\ps1513\f.cpp
+
+1622323426 source:c:\my programs\codeforces\ps1514\c.cpp
+
+1622398094 source:c:\my programs\codeforces\ps1514\d.cpp
+
+1622078390 source:c:\my programs\codeforces\ps1515\d.cpp
+
+1622116575 source:c:\my programs\codeforces\ps1515\e.cpp
+
+1622479132 source:c:\my programs\codeforces\ps1515\f.cpp
+
+1623530238 source:c:\my programs\codeforces\ps1515\g.cpp
+
+1623540588 source:c:\my programs\codeforces\ps1515\h.cpp
+
+1622423262 source:c:\my programs\codeforces\ps1516\b.cpp
+
+1622662967 source:c:\my programs\codeforces\ps1516\c.cpp
+
+1622989407 source:c:\my programs\codeforces\ps1516\d.cpp
+
+1624281422 source:c:\my programs\codeforces\ps1519\e.cpp
+
+1623162032 source:c:\my programs\codeforces\ps1520\g.cpp
+
+1623503337 source:c:\my programs\codeforces\ps1521\d.cpp
+
+1624128755 source:c:\my programs\codeforces\ps1521\e.cpp
+
+1623157841 source:c:\my programs\codeforces\ps1523\e.cpp
+
+1623152702 source:c:\my programs\codeforces\ps1526\d.cpp
+
+1623869938 source:c:\my programs\codeforces\ps1526\e.cpp
+
+1623673189 source:c:\my programs\codeforces\ps1527\d.cpp
+
+1625086741 source:c:\my programs\codeforces\ps1527\e.cpp
+
+1623421020 source:c:\my programs\codeforces\ps1528\c.cpp
+	<bits/stdc++.h>
+
+1623877714 source:c:\my programs\codeforces\ps1528\d.cpp
+
+1623674524 source:c:\my programs\codeforces\ps1534\a.cpp
+
+1623674885 source:c:\my programs\codeforces\ps1534\b.cpp
+
+1623676617 source:c:\my programs\codeforces\ps1534\c.cpp
+
+1623678575 source:c:\my programs\codeforces\ps1534\d.cpp
+
+1623683675 source:c:\my programs\codeforces\ps1534\e.cpp
+
+1623761369 source:c:\my programs\codeforces\ps1534\f1.cpp
+
+1623764483 source:c:\my programs\codeforces\ps1534\f2.cpp
+
+1624022335 source:c:\my programs\codeforces\ps1534\g.cpp
+
+1622990861 source:c:\my programs\codeforces\ps1536\a.cpp
+
+1622991888 source:c:\my programs\codeforces\ps1536\b.cpp
+
+1622992544 source:c:\my programs\codeforces\ps1536\c.cpp
+
+1622994162 source:c:\my programs\codeforces\ps1536\d.cpp
+
+1622996430 source:c:\my programs\codeforces\ps1536\e.cpp
+
+1623069094 source:c:\my programs\codeforces\ps1536\f.cpp
+
+1624027082 source:c:\my programs\codeforces\ps1537\a.cpp
+
+1624027328 source:c:\my programs\codeforces\ps1537\b.cpp
+
+1624027528 source:c:\my programs\codeforces\ps1537\c.cpp
+
+1624029166 source:c:\my programs\codeforces\ps1537\d.cpp
+
+1624028945 source:c:\my programs\codeforces\ps1537\e1.cpp
+
+1624028944 source:c:\my programs\codeforces\ps1537\e2.cpp
+
+1624031882 source:c:\my programs\codeforces\ps1537\f.cpp
+
+1624723388 source:c:\my programs\codeforces\ps1539\f.cpp
+
+1624636345 source:c:\my programs\codeforces\ps1540\a.cpp
+
+1624638405 source:c:\my programs\codeforces\ps1540\b.cpp
+
+1624647936 source:c:\my programs\codeforces\ps1540\c.cpp
+	<bits/stdc++.h>
+
+1624642510 source:c:\my programs\codeforces\ps1540\d.cpp
+
+1624628176 source:c:\my programs\codeforces\ps1540\e.cpp
+
+1626656672 source:c:\my programs\codeforces\universalset\p1.cpp
+
+1625065500 source:c:\my programs\codeforces\ps1494\d.cpp
+
+1626711615 source:c:\my programs\codeforces\ps1499\f.cpp
+
+1625152546 source:c:\my programs\codeforces\ps1380\g.cpp
+
+1625170298 source:c:\my programs\codeforces\d.cpp
+	<bits/stdc++.h>
+
+1625171151 source:c:\my programs\codeforces\ps1523\d.cpp
+
+1625234846 source:c:\my programs\codeforces\ps1469\e.cpp
+
+1625259134 source:c:\my programs\codeforces\ps1491\f.cpp
+
+1625411975 source:c:\my programs\codeforces\ps1491\g.cpp
+
+1626009140 source:c:\my programs\codeforces\ps1364\e.cpp
+
+1625491607 source:c:\my programs\codeforces\ps1366\f.cpp
+
+1625414782 source:c:\my programs\codeforces\ps1366\g.cpp
+
+1626015661 source:c:\my programs\codeforces\ps1545\b.cpp
+
+1626398755 source:c:\my programs\codeforces\ps1545\c.cpp
+
+1629127191 source:c:\my programs\codeforces\ps1545\d.cpp
+
+1626009178 source:c:\my programs\codeforces\ps1545\e.cpp
+
+1626009178 source:c:\my programs\codeforces\ps1545\f.cpp
+
+1626013466 source:c:\my programs\codeforces\ps1545\a.cpp
+
+1626550877 source:c:\my programs\codeforces\ps1422\d.cpp
+
+1626651080 source:c:\my programs\codeforces\ps1485\d.cpp
+
+1627222962 source:c:\my programs\codeforces\ps1530\d.cpp
+
+1627235505 source:c:\my programs\codeforces\ps1482\f.cpp
+
+1627395138 source:c:\my programs\codeforces\ps1473\e.cpp
+
+1634160857 source:c:\my programs\codeforces\e.cpp
+
+1628516972 source:c:\my programs\codeforces\main2.cpp
+
+1628524950 source:c:\my programs\codeforces\ps1398\g.cpp
+
+1628708354 source:c:\my programs\codeforces\ps1548\c.cpp
+
+1628619619 source:c:\my programs\codeforces\ps1477\b.cpp
+
+1628545313 source:c:\my programs\codeforces\ps1477\c.cpp
+
+1628537879 source:c:\my programs\codeforces\ps1477\d.cpp
+
+1628537885 source:c:\my programs\codeforces\ps1477\e.cpp
+
+1628537891 source:c:\my programs\codeforces\ps1477\f.cpp
+
+1628541846 source:c:\my programs\codeforces\ps1477\a.cpp
+
+1628685587 source:c:\my programs\codeforces\ps1470\a.cpp
+
+1629035709 source:c:\my programs\codeforces\ps1557\e.cpp
+
+1628646392 source:c:\my programs\codeforces\ps1450\c2.cpp
+
+1628706975 source:c:\my programs\codeforces\ps1452\e.cpp
+
+1628719734 source:c:\my programs\codeforces\ps1542\e.cpp
+
+1628779956 source:c:\my programs\codeforces\ps1334\f.cpp
+
+1628795601 source:c:\my programs\codeforces\ps1333\e.cpp
+
+1628864605 source:c:\my programs\codeforces\ps1467\e.cpp
+
+1628881962 source:c:\my programs\codeforces\ps1332\f.cpp
+
+1628907328 source:c:\my programs\codeforces\ps1453\f.cpp
+
+1628970855 source:c:\my programs\codeforces\ps1327\f.cpp
+
+1628961612 source:c:\my programs\codeforces\ps1421\e.cpp
+
+1629035736 source:c:\my programs\codeforces\ps1553\e.cpp
+
+1629049992 source:c:\my programs\codeforces\ps1553\f.cpp
+
+1629031607 source:c:\my programs\codeforces\ps1553\g.cpp
+
+1629144086 source:c:\my programs\codeforces\ps1396\b.cpp
+
+1629147277 source:c:\my programs\codeforces\ps1396\c.cpp
+
+1629142421 source:c:\my programs\codeforces\ps1396\d.cpp
+
+1629143160 source:c:\my programs\codeforces\ps1396\a.cpp
+
+1629214943 source:c:\my programs\codeforces\ps1423\l.cpp
+
+1629307530 source:c:\my programs\codeforces\ps1252\b.cpp
+
+1630194219 source:c:\my programs\codeforces\fb\a2.cpp
+
+1630171375 source:c:\my programs\codeforces\fb\b.cpp
+
+1630171381 source:c:\my programs\codeforces\fb\c1.cpp
+
+1630171392 source:c:\my programs\codeforces\fb\c2.cpp
+
+1629552081 source:c:\my programs\codeforces\ps1419\f.cpp
+
+1630174320 source:c:\my programs\codeforces\fb\a1.cpp
+
+1629488606 source:c:\my programs\codeforces\ps1552\g.cpp
+
+1630446745 source:c:\my programs\codeforces\ps1361\a.cpp
+
+1630615497 source:c:\my programs\codeforces\ps1556\d.cpp
+
+1630622429 source:c:\my programs\codeforces\universalset\p2.cpp
+
+1630763694 source:c:\my programs\codeforces\ps1562\e.cpp
+
+1630624607 source:c:\my programs\codeforces\ps1556\e.cpp
+
+1630770802 source:c:\my programs\codeforces\ps1552\e.cpp
+
+1630773015 source:c:\my programs\codeforces\ps1552\f.cpp
+
+1630777953 source:c:\my programs\codeforces\ps1464\b.cpp
+
+1630778867 source:c:\my programs\codeforces\ps1464\c.cpp
+
+1630774371 source:c:\my programs\codeforces\ps1464\a.cpp
+
+1630848844 source:c:\my programs\codeforces\ps1464\e.cpp
+
+1630850741 source:c:\my programs\codeforces\ps1209\b.cpp
+
+1630851336 source:c:\my programs\codeforces\ps1209\c.cpp
+
+1630851830 source:c:\my programs\codeforces\ps1209\d.cpp
+
+1630856052 source:c:\my programs\codeforces\ps1209\e1.cpp
+
+1630856048 source:c:\my programs\codeforces\ps1209\e2.cpp
+
+1631024003 source:c:\my programs\codeforces\ps1209\f.cpp
+
+1630859071 source:c:\my programs\codeforces\ps1209\g1.cpp
+
+1630848652 source:c:\my programs\codeforces\ps1209\g2.cpp
+
+1630848652 source:c:\my programs\codeforces\ps1209\h.cpp
+
+1630849635 source:c:\my programs\codeforces\ps1209\a.cpp
+
+1631026144 source:c:\my programs\codeforces\ps1344\b.cpp
+
+1631029159 source:c:\my programs\codeforces\ps1344\c.cpp
+
+1631041734 source:c:\my programs\codeforces\ps1344\d.cpp
+
+1631023926 source:c:\my programs\codeforces\ps1344\e.cpp
+
+1631023926 source:c:\my programs\codeforces\ps1344\f.cpp
+
+1631024570 source:c:\my programs\codeforces\ps1344\a.cpp
+
+1631060943 source:c:\my programs\codeforces\ps1552\h.cpp
+
+1631318122 source:c:\my programs\codeforces\ps1554\e.cpp
+
+1631415039 source:c:\my programs\codeforces\ps1301\f.cpp
+
+1631379743 source:c:\my programs\codeforces\ps1301\e.cpp
+
+1631380141 source:c:\my programs\codeforces\fb\d1.cpp
+
+1631380750 source:c:\my programs\codeforces\fb\d2.cpp
+
+1631382574 source:c:\my programs\codeforces\fb\d3.cpp
+
+1631383486 source:c:\my programs\codeforces\fb\e.cpp
+
+1631415654 source:c:\my programs\codeforces\fb\f.cpp
+
+1631458102 source:c:\my programs\codeforces\ps1566\b.cpp
+
+1631459326 source:c:\my programs\codeforces\ps1566\c.cpp
+
+1631452168 source:c:\my programs\codeforces\ps1566\d1.cpp
+
+1631476296 source:c:\my programs\codeforces\ps1566\d2.cpp
+
+1631560720 source:c:\my programs\codeforces\ps1566\e.cpp
+
+1633440380 source:c:\my programs\codeforces\ps1566\f.cpp
+
+1631452189 source:c:\my programs\codeforces\ps1566\g.cpp
+
+1631452193 source:c:\my programs\codeforces\ps1566\h.cpp
+
+1631457573 source:c:\my programs\codeforces\ps1566\a.cpp
+
+1631667049 source:c:\my programs\codeforces\ps1044\d.cpp
+
+1631716011 source:c:\my programs\codeforces\ps1042\f.cpp
+
+1631713816 source:c:\my programs\codeforces\ps1043\f.cpp
+
+1631718889 source:c:\my programs\codeforces\ps1042\e.cpp
+
+1631741437 source:c:\my programs\codeforces\ps1041\f.cpp
+
+1631796044 source:c:\my programs\codeforces\ps1039\c.cpp
+
+1631800697 source:c:\my programs\codeforces\g103270\k.cpp
+
+1631819533 source:c:\my programs\codeforces\ps1476\b.cpp
+
+1631819096 source:c:\my programs\codeforces\ps1476\c.cpp
+
+1631821128 source:c:\my programs\codeforces\ps1476\d.cpp
+
+1631822352 source:c:\my programs\codeforces\ps1476\e.cpp
+
+1631836923 source:c:\my programs\codeforces\ps1476\f.cpp
+
+1631816143 source:c:\my programs\codeforces\ps1476\g.cpp
+
+1631816969 source:c:\my programs\codeforces\ps1476\a.cpp
+
+1631837390 source:c:\my programs\codeforces\ps1543\b.cpp
+
+1631880456 source:c:\my programs\codeforces\ps1543\c.cpp
+
+1631836892 source:c:\my programs\codeforces\ps1543\d1.cpp
+
+1631839374 source:c:\my programs\codeforces\ps1543\d2.cpp
+
+1631902964 source:c:\my programs\codeforces\ps1543\e.cpp
+
+1631837287 source:c:\my programs\codeforces\ps1543\a.cpp
+
+1631906091 source:c:\my programs\codeforces\ps1254\b1.cpp
+
+1631903041 source:c:\my programs\codeforces\ps1254\b2.cpp
+
+1631907250 source:c:\my programs\codeforces\ps1254\c.cpp
+
+1631970818 source:c:\my programs\codeforces\ps1254\d.cpp
+
+1631903059 source:c:\my programs\codeforces\ps1254\e.cpp
+
+1631904994 source:c:\my programs\codeforces\ps1254\a.cpp
+
+1632007496 source:c:\my programs\codeforces\ps1572\b.cpp
+
+1632093293 source:c:\my programs\codeforces\ps1572\c.cpp
+
+1631970843 source:c:\my programs\codeforces\ps1572\d.cpp
+
+1631970843 source:c:\my programs\codeforces\ps1572\e.cpp
+
+1631970843 source:c:\my programs\codeforces\ps1572\f.cpp
+
+1631997572 source:c:\my programs\codeforces\ps1572\a.cpp
+
+1632188693 source:c:\my programs\codeforces\ps1574\e.cpp
+
+1632588875 source:c:\my programs\codeforces\fb\h.cpp
+
+1632588881 source:c:\my programs\codeforces\fb\i.cpp
+
+1632589670 source:c:\my programs\codeforces\fb\g.cpp
+	<bits/stdc++.h>
+
+1632603475 source:c:\my programs\codeforces\ps1573\b.cpp
+
+1632602277 source:c:\my programs\codeforces\ps1573\a.cpp
+
+1632665667 source:c:\my programs\codeforces\ps1574\c.cpp
+
+1632749720 source:c:\my programs\codeforces\ps1574\d.cpp
+
+1632604242 source:c:\my programs\codeforces\ps1574\b.cpp
+
+1633095970 source:c:\my programs\codeforces\ps1580\b.cpp
+
+1633095206 source:c:\my programs\codeforces\ps1580\a.cpp
+
+1633113545 source:c:\my programs\codeforces\ps1580\c.cpp
+
+1633796431 source:c:\my programs\codeforces\ps1594\e2.cpp
+
+1633980941 source:c:\my programs\codeforces\ps1579\g.cpp
+
+1634049951 source:c:\my programs\codeforces\ps1550\e.cpp
+
+1634160911 source:c:\my programs\codeforces\ps1598\f.cpp
+
+1634516592 source:c:\my programs\codeforces\ps1539\e.cpp
+
+1634518464 source:c:\my programs\codeforces\ps1307\b.cpp
+
+1634520204 source:c:\my programs\codeforces\ps1307\c.cpp
+
+1634523822 source:c:\my programs\codeforces\ps1307\d.cpp
+
+1634583269 source:c:\my programs\codeforces\ps1307\e.cpp
+
+1634775705 source:c:\my programs\codeforces\ps1307\f.cpp
+
+1634516665 source:c:\my programs\codeforces\ps1307\g.cpp
+
+1634517122 source:c:\my programs\codeforces\ps1307\a.cpp
+
+1634850252 source:c:\my programs\codeforces\ps1599\f.cpp
+
+1634775776 source:c:\my programs\codeforces\ps1599\g.cpp
+
+1634775782 source:c:\my programs\codeforces\ps1599\i.cpp
+
+1635430841 source:c:\my programs\codeforces\ps1599\j.cpp
+
+1634777269 source:c:\my programs\codeforces\ps1599\a.cpp
+
+1635431179 source:c:\my programs\codeforces\ps1601\a.cpp
+
+1635439178 source:c:\my programs\codeforces\ps1601\b.cpp
+
+1635430782 source:c:\my programs\codeforces\ps1601\c.cpp
+
+1652543060 source:c:\my programs\codeforces\whatever.cpp
+	<bits/stdc++.h>
+	<bitset>
+	<cstdint>
+
+1636116945 source:c:\my programs\codeforces\ps1582\f2.cpp
+
+1636489912 source:c:\my programs\codeforces\ps1304\f2.cpp
+
+1637382792 source:c:\my programs\codeforces\ps1592\e.cpp
+
+1638124004 source:c:\my programs\codeforces\ps1601\d.cpp
+
+1638407244 source:c:\my programs\codeforces\prime.cpp
+
+1638850667 source:c:\my programs\codeforces\ps1614\e.cpp
+

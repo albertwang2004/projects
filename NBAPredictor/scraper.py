@@ -39,8 +39,8 @@ def incrementDay():
 # 2. open and process player dictionary #
 #########################################
 
-playerUserList = open(".data/playerIDs.dat", "r")
-playerNameList = open(".data/playerNames.dat", "r")
+playerUserList = open("./data/playerIDs.dat", "r")
+playerNameList = open("./data/playerNames.dat", "r")
 
 playerIDs = {}
 playerIDtoDisplayName = {}

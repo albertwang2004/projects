@@ -5,6 +5,7 @@ import re
 
 from datetime import datetime
 import time
+import random
 
 
 
@@ -151,7 +152,7 @@ def scrapeDay():
 
     for game in gameList:
         # prevent getting banned >:(
-        time.sleep(0.4)
+        time.sleep(random.random()*0.5+0.3)
         
         # find the corresponding href for each box score
         links = game.find_all("a")
@@ -160,6 +161,9 @@ def scrapeDay():
 
         # do some string manipulation to find team ID, and scrape!
         scrapeGame(boxScoreLink, links[0]['href'].split("/")[2], links[2]['href'].split("/")[2])
+
+    # prevent getting banned >:(
+    time.sleep(random.random()*0.5+0.3)
 
 
 

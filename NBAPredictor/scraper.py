@@ -150,9 +150,11 @@ def scrapeDay():
     # find all elements corresponding to 'game summaries'
     gameList = parsed.find_all("div",class_="game_summary")
 
+    print(len(gameList), "games found ", end="")
+
     for game in gameList:
         # prevent getting banned >:(
-        time.sleep(random.random()*0.5+0.3)
+        time.sleep(random.random()+1.5)
         
         # find the corresponding href for each box score
         links = game.find_all("a")
@@ -161,9 +163,10 @@ def scrapeDay():
 
         # do some string manipulation to find team ID, and scrape!
         scrapeGame(boxScoreLink, links[0]['href'].split("/")[2], links[2]['href'].split("/")[2])
+        print(".", end="")
 
     # prevent getting banned >:(
-    time.sleep(random.random()*0.5+0.3)
+    time.sleep(random.random()+1.5)
 
 
 
@@ -174,7 +177,7 @@ def scrapeDay():
 while ((year, month, day) != (currentYear, currentMonth, currentDay)):
     incrementDay()
     scrapeDay()
-    print("loaded all data from {m}/{d}/{y}".format(m = month, d = day, y = year))
+    print(" loaded all data from {m}/{d}/{y}".format(m = month, d = day, y = year))
 
     
 writeIDs = open("./data/playerIDs.dat", "w", encoding = "utf-8")
